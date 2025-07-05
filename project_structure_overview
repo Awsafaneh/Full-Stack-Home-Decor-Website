@@ -1,0 +1,25 @@
+home_decor/
+│
+├── core/                    # Django app (main logic)
+│   ├── migrations/
+│   ├── static/
+│   │   └── core/
+│   │       ├── js/
+│   │       │   └── script.js
+│   │       └── images/     # All assets/images
+│   ├── templates/
+│   │   └── core/
+│   │       ├── base.html
+│   │       ├── index.html
+│   ├── forms.py
+│   ├── models.py
+│   ├── views.py
+│   └── urls.py
+│
+├── home_decor/
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── manage.py
+└── db.sqlite3
